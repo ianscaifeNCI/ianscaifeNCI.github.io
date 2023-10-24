@@ -1,0 +1,49 @@
+h1{
+    font-style: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:lightskyblue;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+body{
+    background: grey;
+    text-align: center;
+    
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.shadow{
+    text-shadow: 2px 2px blue;
+}
+#funstuff{
+    color: coral;
+}
