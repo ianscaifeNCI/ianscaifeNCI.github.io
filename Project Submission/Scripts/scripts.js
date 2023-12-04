@@ -92,3 +92,4 @@ function showText(x) {
         text += "Image 4: This is one of our coffee machines being handled by a barista. We make sure to only use the best ingredients in our coffee so that you can enjoy great coffee each and every cup!"
     }
     desc.innerHTML = text;
+}
