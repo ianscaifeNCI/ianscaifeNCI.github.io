@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Win a Discount</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Styles/style.css"/>
+    <meta name="Free chance to win a 10% discount at our Restaurant" content="Pop your details in and have a go at winning a 10% off voucher to dine in Funky Monkey.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body id="background">
+    <div class="container-fluid">
+        <div class="container-fluid text-end">
+            <div class="row justify-content-end">
+                <div class="col" id="address">
+                    <h4>1 Monkey Plaza, Banana Park, Chimp City</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu list at top of page -->
+    <div class="container-fluid text-center">
+        <div class="row justify-content-around" id="headerbackground">
+            <div class="col-2" id="header">
+                <a href="../Home/index.html" id="headeroption"><h2>Home</h2></a>
+            </div>
+            <div class="col-2" id="header">
+                <a href="../About/about.html" id="headeroption"><h2>About</h2></a>
+            </div>
+            <div class="col-2" id="header">
+                <a href="../Contact/contact.html" id="headeroption"><h2>Contact</h2></a>
+            </div>
+            <div class="col-2" id="header">
+                <a href="../Menu/menu.html" id="headeroption"><h2>Menu</h2></a>
+            </div>
+            <div class="col-2" id="header">
+                <a href="../Competition/competition.html" id="headeroption"><h2>Win!</h2></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center" id="banner">
+        <div><img src="../Images/newBanner.jpeg" alt="Restaurant Floor" class="img-fluid"></div>
+    </div>
+    <!-- Build a form that takes in user input and calls the diceChecker function when the submit button is clicked-->
+    <div class="container-fluid text-center" id="containerbody2">
+        <div class="row justify-content-around" style="padding: 15px;">
+            <div class="col-8" id="textinfo">
+                <script src = "../Scripts/scripts.js"></script>
+                <br><h1>Roll the Dice to Win a 10% Discount!</h1>
+                <br>
+                <img src = "../Images/dice.png" alt="Image of a dice" style="width: 150px; height: auto; border: 0px;" >
+                <!-- Note how I've used CSS here -->
+                <br><br>
+                <h3>Fill out your details & press the button below to have a roll of our virtual dice!</h3>
+                <br>
+                <h3>If you roll a 1 or a 2 on the die, we'll send you a 10% discount code for MonkeyRestaurant!</h3>
+                <br><br>
+
+                <form id ="diceForm" onsubmit="diceChecker(event); return false;">
+                    Name: <input type="text" id="formName" /><br/><br>
+                    Email: <input type="email" id="formEmail"/><br/>
+                    <br>
+                    <input type="submit" value="Click here to Roll!" /><br/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid text-center" id="footer">
+        <div class="col"></div>
+        <div class="foot"><h4>1 Monkey Plaza, Banana Park, Chimp City</h4></div>
+        <div class="foot"><h4>+353 1 238 7862</h4></div>
+        <div class="foot"><h4>TheChunkyMonkey@gmail.com</h4></div>
+        <div class="foot"></div>
+    </div>
+</body>
+</html>
