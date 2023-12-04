@@ -1,0 +1,58 @@
+#background{
+    background-color: #177e89;
+}
+#header{
+    background-color: #efd051;
+    border: 3px solid #000;
+}
+#headerbackground{
+    padding: 5px;
+    background-color: #db3a34;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+#headeroption{
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    background-color: #084c61;
+}
+#textinfo{
+    background-color: #efd051;
+    border: 3px solid #000;
+}
+#pad{
+    padding: 15px;
+    font-family: 'Pacifico', cursive;
+}
+img{
+    border: 3px solid #000;
+}
+#containerbody1{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background-color: #084c61;;
+}
+#containerbody2{
+    border-top: 3px solid #000;
+    background-color: #177e89;
+}
+#homecontainer{
+    background-color: #efd051;
+    padding: 10px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+#footer{
+    background-color: #efd051;
+    padding: 5px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+#welcome{
+    font-family: 'Oswald', sans-serif;
+}
+#address{
+    font-family: 'Permanent Marker', cursive;
+}

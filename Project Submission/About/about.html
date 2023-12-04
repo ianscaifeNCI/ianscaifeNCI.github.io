@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="../Styles/style.css"/>
+        <meta name="Find out about the cuisine and decor of the Funky Monkey" content="Have a look at our recent renovations and take a look at our fine dining standard menu.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body id="background">
+        <div class="container-fluid">
+            <div class="container-fluid text-end">
+                <div class="row justify-content-end">
+                    <div class="col" id="address">
+                        <h4>1 Monkey Plaza, Banana Park, Chimp City</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="row justify-content-around" id="headerbackground">
+                <div class="col-2" id="header">
+                    <a href="../Home/index.html" id="headeroption"><h2>Home</h2></a>
+                </div>
+                <div class="col-2" id="header">
+                    <a href="../About/about.html" id="headeroption"><h2>About</h2></a>
+                </div>
+                <div class="col-2" id="header">
+                    <a href="../Contact/contact.html" id="headeroption"><h2>Contact</h2></a>
+                </div>
+                <div class="col-2" id="header">
+                    <a href="../Menu/menu.html" id="headeroption"><h2>Menu</h2></a>
+                </div>
+                <div class="col-2" id="header">
+                    <a href="../Competition/competition.html" id="headeroption"><h2>Win!</h2></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center" id="banner">
+            <div><img src="../Images/newBanner.jpeg" alt="Restaurant Floor" class="img-fluid"></div>
+        </div>
+        <div class="container-fluid text-center" id="containerbody2">
+            <div class="row justify-content-around" id="pad">
+                <div class="col-8" id="textinfo">
+                    <h1>About Section</h1>
+                    <h4>The Chunky Monkey was established in 2006 by the prodigious Gilbert Gallyson. Gilbert honed his culinary talents across a plethora of the Nation's fine dining establishments.
+                        <br><br>
+                        He relocated to Chicago in 2000, taking over the running of his family's beef sandwich store. Gilbert transformed the fortunes of this corner-bistro, introducing many of his iconic recipes such as his 'Walnut Wagu' and the esteemed 'Banana Broth'.
+                        <br><br>
+                        Gilbert then settled in Chimp City, opening the much adorned Chunky Monkey Cafe. Today, this establishment is loved across the city for its variety of jungle inspired dishes.
+                        <br><br>
+                        The premises on 1 Monkey Plaza has recently undergone extensive refurbishments as well as an inspired menu rejig.
+                        <br><br>
+                        Barrista extraordinaire Billy Collison joined up with Chunky Monkey in late 2015, bringing with him extensive experience in roasting and bean procurement.
+                        <br><br>
+                        It is our utmost wish that every customer stepping in the doors of Chunky Monkey is left with a lasting impression of culinary delight.
+                        <br><br>
+                        Our staff team of 40 work relentlessly to provide the gold standard in hospitality and customer experience.
+                        <br><br>
+                        Feel free to pop in at any time to taste our delicous takeaway coffee.
+                        <br><br>
+                        And if you fancy getting a 'taste of the jungle' with our new seasonal menu, please make sure to request a booking on our reservations page !
+                        <br><br>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="containerbody1">
+            <div class="row justify-content-around" id="pad">
+                <div class="col-8" id="textinfo">
+                    <h1>Gallery</h1>
+                    <h4>Below are a collection of images taken of the Chunky Monkey. Peruse the gallery and click on any of these images to find out more about our amazing business!
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a>
+                        <img src="../Images/RestaurantDeli.jpeg" alt="Image of the sandwich deli of this cafe" class="img-fluid" onclick="showText(1)">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="../Images/RestaurantDeli2.jpeg" alt="Image of the pastry counter of this cafe" class="img-fluid" onclick="showText(2)">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="../Images/RestaurantTable.jpeg" alt="Image of the table decor" class="img-fluid" onclick="showText(3)">
+                    </a>
+                </div>
+                <div class="col">
+                    <a>
+                        <img src="../Images/espresso-machine.jpeg" alt="Image of the our coffee press" class="img-fluid" onclick="showText(4)">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-around" style="padding: 15px;">
+                <div class="col-8" id="textinfo">
+                    <h1>Image Description</h1>
+                    <div>
+                        <h4>Click on an Image that interest you!</h4>
+                        <h4><span id="desc"></span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../Scripts/scripts.js"></script>
+        <br>
+        <div class="container-fluid text-center" id="footer">
+			<div class="col"></div>
+			<div class="foot"><h4>1 Monkey Plaza, Banana Park, Chimp City</h4></div>
+            <div class="foot"><h4>+353 1 238 7862</h4></div>
+            <div class="foot"><h4>TheChunkyMonkey@gmail.com</h4></div>
+			<div class="foot"></div>
+		</div>
+	</body>
+</html>
